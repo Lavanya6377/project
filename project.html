@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+    </header>
+
+    <section class="departments-section">
+        <h2>Departments</h2>
+        <div class="department">
+            <img src="https://source.unsplash.com/400x300/?hospital" alt="Department Image">
+            <h3>Cardiology</h3>
+        </div>
+        <div class="department">
+            <img src="https://source.unsplash.com/400x300/?clinic" alt="Department Image">
+            <h3>Orthopedics</h3>
+        </div>
+        <!-- Add more departments as needed -->
+    </section>
+
+    <section class="doctors-section">
+        <h2>Doctors</h2>
+        <div class="doctor">
+           
+            <h3>Dr. Smith</h3>
+            <p>Cardiologist</p>
+        </div>
+        <div class="doctor">
+            
+            <h3>Dr. Johnson</h3>
+            <p>Orthopedic Surgeon</p>
+        </div>
+        <!-- Add more doctors as needed -->
+    </section>
+
+    
+    <section class="Are you in medication">
+        <div class="Are u in medication">
+        <h2>are you in medication</h2>
+        <select id="medication">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            </select>
+        </div>
+</section>
+    <section class="appointments-section">
+        <h2>Appointments</h2>
+        <form>
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" placeholder="Enter Patient Name">
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor">
+                <option value="drSmith">Dr. Smith (Cardiologist)</option>
+                <option value="drJohnson">Dr. Johnson (Orthopedic Surgeon)</option>
+                <!-- Add more doctors as needed -->
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date">
+            <button type="submit">Schedule Appointment</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Hospital Management System</p>
+    </footer>
+</body>
+</html>
